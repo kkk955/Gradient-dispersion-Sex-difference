@@ -1,0 +1,45 @@
+# MATLAB temporary, autosave, and crash files
+*.asv
+*.m~
+*.autosave
+matlab_crash_dump.*
+java.log
+slprj/
+
+# Locally generated intermediate MATLAB outputs
+/Code/Gradient_0828.mat
+/Code/GlobDisp0828.mat
+/Code/WD0828.mat
+/Code/BD0828.mat
+
+# Excel temporary lock files
+~$*.xlsx
+~$*.xls
+
+# Logs, caches, and scratch directories
+*.log
+*.tmp
+*.bak
+cache/
+tmp/
+temp/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Editor metadata
+.vscode/
+.idea/
+*.swp
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local release archives (avoid committing a copy of the repository itself)
+*.zip
+*.7z
+*.rar
