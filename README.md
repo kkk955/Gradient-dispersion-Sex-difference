@@ -68,9 +68,9 @@ Network abbreviations are DAN (dorsal attention), FPN (frontoparietal), DMN (def
 - `Change_rest_control`
 - `Change_rest_rotation`
 
-Each analysis directory contains the feature, label, fold, mask, participant-level MAT files, an MVPANI configuration, and precomputed output files under `Result/`.
+Each analysis directory contains the feature, label, fold, mask, participant-level MAT files, and precomputed output files under `Result/`. Standalone MVPANI configuration files are included where supplied; `SVM/Rotation` does not include a standalone `SVM_rotation.mat` configuration file.
 
-The saved MVPANI configuration and `MvpaResults.mat` files retain historical absolute paths beginning with `D:\student\...`. These paths are provenance from the computer on which the analyses were originally run; they are not credentials or participant information. They do not alter the stored numerical results, but the configurations are not directly portable. To rerun an SVM analysis on another computer, open the configuration in MVPANI, reselect the local participant inputs, `Fold.xlsx`, `Label.xlsx`, `mask.mat`, and output directory, and then save a new local configuration.
+Where present, the saved MVPANI configuration files and the `MvpaResults.mat` files retain historical absolute paths beginning with `D:\student\...`. These paths are provenance from the computer on which the analyses were originally run; they are not credentials or participant information. They do not alter the stored numerical results, but the configurations are not directly portable. To rerun an SVM analysis on another computer, create or open a compatible configuration in MVPANI, select the local participant inputs, `Fold.xlsx`, `Label.xlsx`, `mask.mat`, and output directory, and then save a new local configuration.
 
 ## MATLAB code
 
